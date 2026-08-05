@@ -10,12 +10,12 @@ const serif = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "DentaPro | Expert dental care for the whole family",
+  title: "DentaPro | Soins dentaires experts pour toute la famille",
   description:
-    "Preventive, restorative, cosmetic, orthodontic, surgical, and implant dental care for the whole family.",
+    "Soins dentaires préventifs, restaurateurs, esthétiques, orthodontiques, chirurgicaux et implantaires pour toute la famille.",
   openGraph: {
-    title: "DentaPro | Expert dental care",
-    description: "Everything you need for a healthy, beautiful smile in one place.",
+    title: "DentaPro | Soins dentaires experts",
+    description: "Tout ce dont vous avez besoin pour un sourire sain et éclatant en un seul endroit.",
     type: "website",
   },
   robots: { index: true, follow: true },
@@ -28,7 +28,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${sans.variable} ${serif.variable}`}>
+    <html lang="fr" className={`${sans.variable} ${serif.variable}`}>
       <body>{children}</body>
     </html>
   );

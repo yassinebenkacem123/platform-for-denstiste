@@ -10,9 +10,9 @@ export function Team() {
         <Image src="/images/doctor.png" alt="Dr. Giovanni, dental specialist" fill sizes="(min-width: 1024px) 31vw, 92vw" className="object-cover" />
       </Reveal>
       <Reveal className="relative mx-[var(--page-pad)] mt-16 lg:absolute lg:left-[50.38%] lg:top-[132px] lg:mx-0 lg:mt-0 lg:w-[35%]" delay={.1}>
-        <h2 className="display text-[clamp(2.8rem,3.48vw,4rem)]">Professionals you can trust. Period.</h2>
-        <p className="copy mt-8">Dr. Giovanni is prominent dental specialist, who knows how to treat every problem. 10+ years of experience translates into bespoke treatment of every pacient.</p>
-        <ButtonLink href="#contact" className="mt-10 w-[216px]">Read more about Dr. Giovanni</ButtonLink>
+        <h2 className="display text-[clamp(2.8rem,3.48vw,4rem)]">Des professionnels en qui vous pouvez avoir confiance.</h2>
+        <p className="copy mt-8">Le Dr Giovanni est un spécialiste dentaire reconnu, qui sait traiter chaque problème avec précision. Plus de 10 ans d&apos;expérience se traduisent par un traitement sur mesure pour chaque patient.</p>
+        <ButtonLink href="#contact" className="mt-10 w-[216px]">En savoir plus sur le Dr Giovanni</ButtonLink>
       </Reveal>
     </section>
   );
