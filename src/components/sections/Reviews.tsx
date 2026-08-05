@@ -3,7 +3,7 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export function Reviews() {
   return (
-    <section id="reviews" className="site-shell relative min-h-[1080px] px-[var(--page-pad)] py-20 lg:py-0">
+    <section id="reviews" className="site-shell relative px-[var(--page-pad)] py-20 lg:min-h-[1080px] lg:py-0">
       <Reveal className="relative aspect-[.7] overflow-hidden sm:w-[45%] lg:absolute lg:left-[11.3%] lg:top-36 lg:h-[800px] lg:w-[30.43%]">
         <Image src="/images/review-woman.png" alt="Smiling DentaPro patient" fill sizes="(min-width: 1024px) 31vw, 92vw" className="object-cover" />
       </Reveal>

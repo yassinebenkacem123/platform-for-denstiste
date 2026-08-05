@@ -4,7 +4,7 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export function Team() {
   return (
-    <section id="team" className="site-shell relative min-h-[760px] py-[var(--section-space)] lg:py-0">
+    <section id="team" className="site-shell relative py-[var(--section-space)] lg:min-h-[760px] lg:py-0">
       <Reveal className="relative mx-[var(--page-pad)] aspect-[.814] lg:absolute lg:left-[7.83%] lg:top-[-72px] lg:mx-0 lg:h-[688px] lg:w-[30.43%]">
         <div className="absolute inset-0 translate-x-8 translate-y-8 border border-brand/50" />
         <Image src="/images/doctor.png" alt="Dr. Giovanni, dental specialist" fill sizes="(min-width: 1024px) 31vw, 92vw" className="object-cover" />

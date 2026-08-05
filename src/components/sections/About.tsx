@@ -4,7 +4,7 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export function About() {
   return (
-    <section id="about" className="site-shell relative min-h-[904px] py-[var(--section-space)] lg:py-0">
+    <section id="about" className="site-shell relative py-[var(--section-space)] lg:min-h-[904px] lg:py-0">
       <span id="patient-information" className="absolute -top-20" aria-hidden="true" />
       <div className="ice-gradient absolute left-0 top-0 hidden h-[688px] w-[29.2%] lg:block" />
       <Reveal className="relative mx-[var(--page-pad)] aspect-[1.02] overflow-hidden lg:absolute lg:left-16 lg:top-[72px] lg:mx-0 lg:h-[688px] lg:w-[38.3%]">

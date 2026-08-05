@@ -6,8 +6,8 @@
   --muted: #a7adaf;
   --ice: #e1f1f8;
   --footer: #1e1e1e;
-  --page-pad: clamp(1.25rem, 3.48vw, 4rem);
-  --section-space: clamp(5rem, 8vw, 9rem);
+  --page-pad: clamp(1rem, 3.48vw, 4rem);
+  --section-space: clamp(4rem, 8vw, 9rem);
 }
 
 @theme inline {
@@ -28,6 +28,7 @@ body {
   color: var(--ink);
   font-family: var(--font-sans), "Century Gothic", Arial, sans-serif;
 }
+img, video { max-width: 100%; }
 button, input, select, textarea { font: inherit; }
 a, button { -webkit-tap-highlight-color: transparent; }
 a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
@@ -50,6 +51,29 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .ice-gradient {
   background: linear-gradient(240deg, rgba(204,221,228,.55) 6%, rgba(225,241,248,.55) 72%);
 }
+
+/* ── Responsive helpers ─────────────────────────────────── */
+
+/* Prevent horizontal overflow on all sections */
+section { overflow-x: hidden; }
+
+/* Form inputs: full-width stack on small screens */
+@media (max-width: 639px) {
+  form .grid { grid-template-columns: 1fr !important; }
+}
+
+/* Footer: single column on very small screens */
+@media (max-width: 479px) {
+  footer .grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Hero text: avoid whitespace-nowrap overflowing on small screens */
+@media (max-width: 767px) {
+  h1 { white-space: normal !important; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
