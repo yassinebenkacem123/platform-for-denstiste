@@ -3,7 +3,7 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export function Appointment() {
   return (
-    <section id="appointment" className="ice-gradient site-shell relative scroll-mt-8 overflow-hidden px-[var(--page-pad)] py-[clamp(5rem,8vw,9rem)]">
+    <section id="appointment" className="ice-gradient site-shell relative scroll-mt-28 overflow-hidden px-[var(--page-pad)] py-[clamp(5rem,8vw,9rem)]">
       <div className="absolute -right-24 -top-24 size-[360px] border border-brand/30" aria-hidden="true" />
       <div className="absolute -right-8 -top-8 size-[210px] bg-white/35" aria-hidden="true" />
       <div className="relative grid items-start gap-14 lg:grid-cols-[.78fr_1.22fr] lg:gap-[8vw]">
