@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1152" height="712" viewBox="0 0 1152 712" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="OVERLAYS">
+<path id="Overlay 1 / 100%" d="M0 0H144V144H0V0Z" fill="white"/>
+<rect id="Overlay 2 / 50%" opacity="0.5" y="144" width="144" height="144" fill="white"/>
+<rect id="Overlay 3 / 100%" y="288" width="144" height="144" fill="white"/>
+<rect id="Overlay 4 / 50%" x="144" y="288" width="144" height="144" fill="white" fill-opacity="0.5"/>
+<rect id="Overlay 5 / 50%" x="144" y="568" width="144" height="144" fill="white" fill-opacity="0.5"/>
+<rect id="Overlay 6 / 50%" x="288" width="144" height="144" fill="white" fill-opacity="0.5"/>
+<rect id="Overlay 7 / 50%" x="720" y="568" width="144" height="144" fill="white" fill-opacity="0.5"/>
+<rect id="Overlay 8 / 50%" x="864" y="424" width="144" height="144" fill="white" fill-opacity="0.5"/>
+<rect id="Overlay9 / 50%" x="1008" y="568" width="144" height="144" fill="white" fill-opacity="0.5"/>
+</g>
+</svg>
