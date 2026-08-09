@@ -13,9 +13,9 @@ export function Header() {
   return (
     <header className="absolute inset-x-0 top-0 z-50 px-[var(--page-pad)] pt-[27px]">
       <div className="mx-auto flex h-10 max-w-[1712px] items-center justify-between gap-4">
-        <Link href="#home" className="flex shrink-0 items-center gap-2.5" aria-label="DentaPro home">
+        <Link href="#home" className="flex shrink-0 items-center gap-2.5" aria-label="Dr. Mansouri - Accueil">
           <Image src="/images/tooth.png" alt="" width={61} height={40} className="h-10 w-[61px] object-contain" priority />
-          <span className="text-2xl font-bold tracking-[.01em]">Denta<span className="text-brand">Pro</span></span>
+          <span className="text-2xl font-bold tracking-[.01em]">Dr. <span className="text-brand">Mansouri</span></span>
         </Link>
         <nav className="hidden items-center gap-[clamp(2rem,5vw,5.4rem)] xl:flex" aria-label="Primary navigation">
           {navigation.map(([label, href], index) => <Link key={label} href={href} className={`text-xs font-bold uppercase tracking-[.1em] transition hover:text-brand ${index === 0 ? "text-brand" : "text-ink"}`}>{label}</Link>)}
